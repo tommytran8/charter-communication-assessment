@@ -1,46 +1,46 @@
 {
   "transactions": [
     {
-      "customer_id": 1,
-      "customer_name": "Andrew Jackson",
-      "customer_expense": 105,
-      "date_of_transaction": "11/10/2023"
+      "customerId": 1,
+      "customerName": "Andrew Jackson",
+      "customerExpense": 105,
+      "dateOfTransaction": "11/10/2023"
     },
     {
-      "customer_id": 2,
-      "customer_name": "Jack Daniels",
-      "customer_expense": 200,
-      "date_of_transaction": "12/03/2022"
+      "customerId": 2,
+      "customerName": "Jack Daniels",
+      "customerExpense": 200,
+      "dateOfTransaction": "12/03/2022"
     },
     {
-      "customer_id": 3,
-      "customer_name": "John Paul",
-      "customer_expense": 59,
-      "date_of_transaction": "12/20/2022"
+      "customerId": 3,
+      "customerName": "John Paul",
+      "customerExpense": 59,
+      "dateOfTransaction": "12/20/2022"
     },
     {
-      "customer_id": 2,
-      "customer_name": "Jack Daniels",
-      "customer_expense": 78,
-      "date_of_transaction": "01/11/2023"
+      "customerId": 2,
+      "customerName": "Jack Daniels",
+      "customerExpense": 78,
+      "dateOfTransaction": "01/11/2023"
     },
     {
-      "customer_id": 4,
-      "customer_name": "George Washington",
-      "customer_expense": 120,
-      "date_of_transaction": "01/13/2023"
+      "customerId": 4,
+      "customerName": "George Washington",
+      "customerExpense": 120,
+      "dateOfTransaction": "01/13/2023"
     },
     {
-      "customer_id": 1,
-      "customer_name": "Andrew Jackson",
-      "customer_expense": 350,
-      "date_of_transaction": "01/13/2023"
+      "customerId": 1,
+      "customerName": "Andrew Jackson",
+      "customerExpense": 350,
+      "dateOfTransaction": "01/13/2023"
     },
     {
-      "customer_id": 5,
-      "customer_name": "Abraham Lincoln",
-      "customer_expense": 49,
-      "date_of_transaction": "01/13/2023"
+      "customerId": 5,
+      "customerName": "Abraham Lincoln",
+      "customerExpense": 49,
+      "dateOfTransaction": "01/13/2023"
     }
   ]
 }

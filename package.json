@@ -37,7 +37,9 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "live-server": "^1.2.2"
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!@ngrx|(?!deck.gl)|ng-dynamic)"
+    ]
   }
 }

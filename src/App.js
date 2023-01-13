@@ -1,24 +1,11 @@
 import "./App.css";
-import React, { useState } from "react";
-import DatasetPage from "./components/DatasetPage";
-import SolutionPage from "./components/SolutionPage";
+import React from "react";
+import MainPage from "./components/MainPage";
 
 function App() {
-  const [customerRewardPoints, setCustomerRewardPoints] = useState({});
-  const [showSolution, setShowSolution] = useState(false);
-
-  console.log("solution", customerRewardPoints);
-
   return (
     <div className="App">
-      <DatasetPage
-        setShowSolution={setShowSolution}
-        setCustomerRewardPoints={setCustomerRewardPoints}
-      />
-      <SolutionPage
-        showSolution={showSolution}
-        customerRewardPoints={customerRewardPoints}
-      />
+      <MainPage />
     </div>
   );
 }
