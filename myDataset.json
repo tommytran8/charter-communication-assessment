@@ -1,0 +1,46 @@
+{
+  "transactions": [
+    {
+      "customer_id": 1,
+      "customer_name": "Andrew Jackson",
+      "customer_expense": 105,
+      "date_of_transaction": "11/10/2023"
+    },
+    {
+      "customer_id": 2,
+      "customer_name": "Jack Daniels",
+      "customer_expense": 200,
+      "date_of_transaction": "12/03/2022"
+    },
+    {
+      "customer_id": 3,
+      "customer_name": "John Paul",
+      "customer_expense": 59,
+      "date_of_transaction": "12/20/2022"
+    },
+    {
+      "customer_id": 2,
+      "customer_name": "Jack Daniels",
+      "customer_expense": 78,
+      "date_of_transaction": "01/11/2023"
+    },
+    {
+      "customer_id": 4,
+      "customer_name": "George Washington",
+      "customer_expense": 120,
+      "date_of_transaction": "01/13/2023"
+    },
+    {
+      "customer_id": 1,
+      "customer_name": "Andrew Jackson",
+      "customer_expense": 350,
+      "date_of_transaction": "01/13/2023"
+    },
+    {
+      "customer_id": 5,
+      "customer_name": "Abraham Lincoln",
+      "customer_expense": 49,
+      "date_of_transaction": "01/13/2023"
+    }
+  ]
+}
