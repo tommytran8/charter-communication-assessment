@@ -49,7 +49,7 @@ describe("MainPage", () => {
     const decEl = await screen.findByText(/dec/i);
     expect(decEl).toBeInTheDocument();
   });
-  test("page render totalPoints", async () => {
+  test("page render points", async () => {
     render(<MainPage />);
     const pointListForId1 = await screen.findAllByText(/60/i);
     expect(pointListForId1).toHaveLength(2);
