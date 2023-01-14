@@ -74,7 +74,7 @@ const MainPage = () => {
               ...prev[transaction.customerId].pointsForEachMonth,
               [monthOfTransaction]:
                 prev[transaction.customerId].pointsForEachMonth[
-                  [monthOfTransaction]
+                  monthOfTransaction
                 ] + totalRewardPoints,
             },
           },
@@ -91,7 +91,7 @@ const MainPage = () => {
             <th>customerId</th>
             <th>totalPoints</th>
             {monthSet.current ? (
-              monthSet.current.map((month) => <th>{month}</th>)
+              monthSet.current.map((month) => <th key={month}>{month}</th>)
             ) : (
               <></>
             )}
@@ -99,12 +99,12 @@ const MainPage = () => {
           {customerRewardPoints ? (
             Object.keys(customerRewardPoints).map((customerId) => {
               return (
-                <tr>
+                <tr key={customerId}>
                   <td>{customerId}</td>
                   <td>{customerRewardPoints[customerId].totalPoints}</td>
                   {monthSet.current ? (
                     monthSet.current.map((month) => (
-                      <td>
+                      <td key={month}>
                         {
                           customerRewardPoints[customerId].pointsForEachMonth[
                             month
